@@ -36,10 +36,10 @@ a:hover {
     text-shadow: 0px 2px 2px  rgb(0, 0, 0) ;
 }
 #login-container{
-    color:  #484848;
-}
-.login-container input[type="text"], 
-.login-container input[type="password"] {
+    
+} 
+.login-container input[type="password"],
+.login-container input[type="email"] {
     width: 475px;
     padding: 10px;
     margin: 10px;
@@ -47,7 +47,7 @@ a:hover {
     border-radius: 5px;
     font-family: Aaargh;
     background-color: #9042F8;
-    color: #484848;
+    border-color: #484848;
 }
 .login-container label{
     color: #fff;
@@ -70,5 +70,7 @@ a:hover {
     font-size: 16px;
     font-family: FF dusha arabic;
     direction: rtl;
-    justify-content: right;
-}
+    justify-content: right;}
+    input{
+        color: #fff;
+    }
