@@ -1,72 +1,72 @@
-body {
-    background-color: #9042F8;
-    display: flex;
-    position: absolute;
-    left: 800px;
-    top: 10%;
-    height: 100vh;
-    font-family: FF dusha arabic;
-    direction: rtl;
-}
-table{
-    position: absolute;
-    top:20%;
-}
-#mg{
-    position: absolute;
-    right: 170px;
-
-}
-a:hover {
-    color: #000;
-    transform: scale(1.2);
-}
-.login-container {
-    width: 500px;
-    height: 500px;
-    text-align: right;
-    justify-content: right;
-}
-.login-container h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #fff;
-    text-shadow: 0px 2px 2px  rgb(0, 0, 0) ;
-}
-.login-container input[type="text"], 
-.login-container input[type="password"] ,
-.login-container input[type="email"],
-.login-container input[type="tel"]{
-    width: 475px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: #484848;
-    font-family: Aaargh;
-    background-color: #9042F8;   
-}
-.login-container label{
-    color: #fff;
-    border: none;
-    padding: 10px;
-    margin: 5px;
-    text-align: right;
-    direction: rtl;
-    justify-content: right;
-}
-.login-container input[type="submit"] {
-    background-color: #fff;
-    color: #9042F8;
-    border: none;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    width: 500px;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: FF dusha arabic;
-    justify-content: center;}
-input{
-    color: #ffffff;
-}
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="tasjil do5oul.css">
+</head>
+<body>
+        <center> <img id="mg" src="nfsvsk.png" height="200" width="700"></center>
+        <div class="login-container" >
+        <table >
+            <tr>
+                <td colspan="2">
+                    <h1><center>إنشاء حساب</center></h1>
+                </td>
+            </tr>
+        <form>
+            
+                <tr>
+                    <td>
+                        <label for="text">الإسم و اللقب</label><br>
+                        <input id="login-container" type="text" placeholder="الإسم و اللقب" ><br>
+                    </td>
+                    <td>
+                        <label for="text">المجال</label><br>
+                        <input id="login-container" type="text" placeholder="المجال" required><br>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">البريد الإلكتروني</label><br>
+                        <input id="login-container" type="email" placeholder="البريد الإلكتروني" required><br>
+                    </td>
+                    <td>
+                        <label for="password">المستوى</label><br>
+                        <input id="login-container" type="text" placeholder="المستوى" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">العنوان</label><br>
+                        <input id="login-container" type="text" placeholder="العنوان" required><br>
+                    </td>
+                    <td>
+                        <label for="password">كلمة العبور</label><br>
+                        <input id="login-container" type="password" placeholder="كلمة العبور "required>   
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">تأكيد كلمة العبور</label><br>
+                        <input id="login-container" type="password" placeholder="تأكيد كلمة العبور" required><br>
+                    </td>
+                    <td>
+                        <label for="password">رقم الهاتف</label><br>
+                        <input id="login-container" type="tel" placeholder="رقم الهاتف" required><br>
+                    </td> 
+                </tr>
+                <tr >
+                    <td colspan="2">
+                        <center> <a href="">هل نسيت كلمة العبور؟</a></center>
+                        <center><input type="submit" value="تسجيل دخول"></center>
+                        <center>ليس لديك حساب؟<a href=""> إنشاء حساب جديد</a></center>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
